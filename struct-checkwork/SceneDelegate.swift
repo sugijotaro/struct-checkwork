@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  struct-checkwork
+//  struct-save-userdefaults-demo
 //
-//  Created by JotaroSugiyama on 2023/02/05.
+//  Created by JotaroSugiyama on 2023/01/21.
 //
 
 import UIKit
