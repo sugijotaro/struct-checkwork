@@ -65,6 +65,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="アーティスト" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vJz-VT-ZEy">
+                                <rect key="frame" x="16" y="161" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaD-kA-lVi">
                                 <rect key="frame" x="167" y="409" width="59" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,11 +85,15 @@
                         <constraints>
                             <constraint firstItem="geM-uM-Qh1" firstAttribute="leading" secondItem="JAg-VX-MOO" secondAttribute="leading" constant="16" id="1xP-78-6so"/>
                             <constraint firstItem="JAg-VX-MOO" firstAttribute="trailing" secondItem="geM-uM-Qh1" secondAttribute="trailing" constant="16" id="IyT-OZ-PeF"/>
+                            <constraint firstItem="JAg-VX-MOO" firstAttribute="trailing" secondItem="vJz-VT-ZEy" secondAttribute="trailing" constant="16" id="MsT-in-6Su"/>
                             <constraint firstItem="geM-uM-Qh1" firstAttribute="top" secondItem="JAg-VX-MOO" secondAttribute="top" constant="12" id="Qf9-ft-K3S"/>
+                            <constraint firstItem="vJz-VT-ZEy" firstAttribute="leading" secondItem="JAg-VX-MOO" secondAttribute="leading" constant="16" id="Zik-d1-4UC"/>
+                            <constraint firstItem="vJz-VT-ZEy" firstAttribute="top" secondItem="geM-uM-Qh1" secondAttribute="bottom" constant="12" id="jJi-Pg-riL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ICG-t7-0Cf"/>
                     <connections>
+                        <outlet property="artistTextField" destination="vJz-VT-ZEy" id="H3X-dy-uyn"/>
                         <outlet property="titleTextField" destination="geM-uM-Qh1" id="O67-iQ-ADb"/>
                     </connections>
                 </viewController>

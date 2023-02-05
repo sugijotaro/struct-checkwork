@@ -10,7 +10,7 @@ import UIKit
 class TableViewController: UITableViewController {
     
     var musics: [Music] = [
-        Music(title: "Soranji")
+        Music(title: "Soranji", artist: "Mrs. GREEN APPLE")
     ]
 
     override func viewDidLoad() {
