@@ -34,4 +34,7 @@ branchが`main`にあることを確認します
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/52352924/216804958-f2afaf33-b3a9-4f48-a45a-2eead7c17042.png">
 
 ## 解説
-今後追加します
+
+[Wiki](https://github.com/sugijotaro/struct-checkwork/wiki)に解説を書きました
+
+[checkwork-finished](https://github.com/sugijotaro/struct-checkwork/tree/checkwork-finished)のbranchに完成系が置いてあります
