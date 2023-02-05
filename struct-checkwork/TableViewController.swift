@@ -27,6 +27,7 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = musics[indexPath.row].title
+        cell.detailTextLabel?.text = musics[indexPath.row].artist
         return cell
     }
 
