@@ -43,7 +43,7 @@
                     <navigationItem key="navigationItem" title="好きな曲" id="5on-26-FSx">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vn4-An-3v4">
                             <connections>
-                                <segue destination="C9j-V4-YFb" kind="show" id="InJ-VM-gXk"/>
+                                <segue destination="C9j-V4-YFb" kind="show" identifier="segueToAddItemView" id="InJ-VM-gXk"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

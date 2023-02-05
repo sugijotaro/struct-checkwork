@@ -17,7 +17,13 @@ class AddItemViewController: UIViewController {
     }
     
     @IBAction func addButonTapped() {
+        let music = Music(title: titleTextField.text ?? "")
         
+        let navigationController = self.navigationController!
+        let tableViewController = navigationController.viewControllers[navigationController.viewControllers.count-2] as! TableViewController
+        tableViewController.musics.append(music)
+        
+        self.navigationController?.popViewController(animated: true)
     }
     
 }
