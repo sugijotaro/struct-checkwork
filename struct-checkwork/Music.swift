@@ -9,4 +9,5 @@ import Foundation
 
 struct Music {
     var title: String
+    var artist: String
 }
